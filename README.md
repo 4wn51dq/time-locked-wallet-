@@ -1,3 +1,18 @@
+### Features:
+- A fixed owner of a vault can deposit eth to it until the vault lasts
+- no eth can be withdrawn from the vault until a fixed time in the future
+- every deposit is recorded and every withdrawal will be recorded
+- there will be a call each time there is a withdrawal attempt during lock period.
+- can get total eth in vault, see time remaining until the vault unlocks
+- owner can extend the lock period of the vault
+- only 10% of total vault balance can be withdrawn at once and only one withdrawal can be made in a 1 hour time span
+- each withdrawal will be recorded
+- the owner can destroy the vault transferring the entire balance of the contract to a backup account in case they lose their private key
+
+
+
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
